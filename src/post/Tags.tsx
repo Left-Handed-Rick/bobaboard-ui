@@ -75,6 +75,9 @@ const TagsInput: React.FC<TagsInputProps> = ({
                       : "rgba(0, 0, 0, 0.8)"
                   }
                 />
+                <DeleteButton onClick={onTagsDelete}>
+                <Icon name="delete" className="delete-adjust fa-minus-circle" />
+              </DeleteButton>
               </div>
             ))}
           </>
