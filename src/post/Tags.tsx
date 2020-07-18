@@ -76,6 +76,7 @@ const TagsInput: React.FC<TagsInputProps> = ({
                   }
                 />
               </div>
+              <div class="tag-dismiss-icon"> (X) </div>
             ))}
           </>
         )}
@@ -219,6 +220,11 @@ const TagsInput: React.FC<TagsInputProps> = ({
           align-items: center;
           word-break: break-word;
         }
+        .tag-dismiss-icon {
+          display: flex;
+          padding-left: 2px;
+        }
+
       `}</style>
     </>
   );
