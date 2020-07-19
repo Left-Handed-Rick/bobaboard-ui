@@ -71,12 +71,11 @@ const TagsInput: React.FC<TagsInputProps> = ({
                   symbol={!tag.indexable ? undefined : "!"}
                   highlightColor={
                     deleteState && index == tags.length - 1
-                      ? "red"
+                      ? "blue"
                       : "rgba(0, 0, 0, 0.8)"
                   }
                 />
               </div>
-              <div class="tag-dismiss-icon"> (X) </div>
             ))}
           </>
         )}
